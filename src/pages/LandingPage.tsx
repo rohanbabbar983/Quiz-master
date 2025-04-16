@@ -8,12 +8,12 @@ import { Question } from "../types/question";
 
 const LandingPage = () => {
   const navigate = useNavigate();
-  const [questions, setQuestions] = useLocalStorage<Question[]>(
+  const [_questions, setQuestions] = useLocalStorage<Question[]>(
     "questions",
     []
   );
-  const [answers, setAnswers] = useLocalStorage<string[][]>("answers", []);
-  const [index, setIndex] = useLocalStorage("index", 0);
+  const [_answers, setAnswers] = useLocalStorage<string[][]>("answers", []);
+  const [_index, setIndex] = useLocalStorage("index", 0);
 
   useEffect(() => {
     setQuestions([]);
