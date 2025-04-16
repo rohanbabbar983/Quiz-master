@@ -1,6 +1,6 @@
 # QuizMaster
 
-Welcome to **QuizMaster**, a sleek and interactive sentence-building quiz application built with modern web technologies like React, TypeScript, TailwindCSS, and Vite. This app provides a clean and user-friendly interface for constructing sentences using drag-and-drop style selections with a live timer and dynamic result evaluation.
+Welcome to **QuizMaster**, a sleek and interactive sentence-building quiz application built with modern web technologies like React, TypeScript, TailwindCSS, and Vite. This app provides a clean and user-friendly interface for constructing sentences using clean style selections with a live timer and dynamic result evaluation.
 
 ## 🚀 Live Demo
 
