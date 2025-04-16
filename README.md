@@ -18,7 +18,6 @@ Check out the live site: https://quiz-master-ex7y.onrender.com/
 - **Responsive UI**: Optimized for all screen sizes
 - **Result Evaluation**: Highlights your answer vs. the correct one at the end
 
----
 ## Tech Stack
 
 - React 18
@@ -27,8 +26,6 @@ Check out the live site: https://quiz-master-ex7y.onrender.com/
 - Tailwind CSS
 - Custom hooks & context
 - Optional: shadcn/ui for beautiful UI elements
-
----
 
 ## Installation
 
