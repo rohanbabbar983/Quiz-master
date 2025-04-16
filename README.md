@@ -2,21 +2,21 @@
 
 Welcome to **QuizMaster**, a sleek and interactive sentence-building quiz application built with modern web technologies like React, TypeScript, TailwindCSS, and Vite. This app provides a clean and user-friendly interface for constructing sentences using clean style selections with a live timer and dynamic result evaluation.
 
-## 🚀 Live Demo
+## Live Demo
 
 Check out the live site: https://quiz-master-ex7y.onrender.com/
 
 ## Features
 
-- ⚛️ **React + TypeScript**: For a robust and type-safe codebase
-- ⚡ **Vite**: Super fast development and build tool
-- 🎨 **Tailwind CSS**: Utility-first modern styling
-- 🧠 **Interactive Sentence Construction**: Choose words to complete a sentence
-- ⏱️ **30-second Timer**: Automatically moves to the next question when time runs out
-- 📊 **Live Score Result Page**: Tracks correct/incorrect answers with final score
-- 🔁 **State Persistence**: Uses `localStorage` to preserve quiz state on refresh
-- 📱 **Responsive UI**: Optimized for all screen sizes
-- 🎯 **Result Evaluation**: Highlights your answer vs. the correct one at the end
+- **React + TypeScript**: For a robust and type-safe codebase
+- **Vite**: Super fast development and build tool
+- **Tailwind CSS**: Utility-first modern styling
+- **Interactive Sentence Construction**: Choose words to complete a sentence
+- **30-second Timer**: Automatically moves to the next question when time runs out
+- **Live Score Result Page**: Tracks correct/incorrect answers with final score
+- **State Persistence**: Uses `localStorage` to preserve quiz state on refresh
+- **Responsive UI**: Optimized for all screen sizes
+- **Result Evaluation**: Highlights your answer vs. the correct one at the end
 
 ---
 ## Tech Stack
