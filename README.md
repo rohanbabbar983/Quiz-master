@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# QuizMaster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **QuizMaster**, a sleek and interactive sentence-building quiz application built with modern web technologies like React, TypeScript, TailwindCSS, and Vite. This app provides a clean and user-friendly interface for constructing sentences using drag-and-drop style selections with a live timer and dynamic result evaluation.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live site: https://quiz-master-ex7y.onrender.com/
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ **React + TypeScript**: For a robust and type-safe codebase
+- ⚡ **Vite**: Super fast development and build tool
+- 🎨 **Tailwind CSS**: Utility-first modern styling
+- 🧠 **Interactive Sentence Construction**: Choose words to complete a sentence
+- ⏱️ **30-second Timer**: Automatically moves to the next question when time runs out
+- 📊 **Live Score Result Page**: Tracks correct/incorrect answers with final score
+- 🔁 **State Persistence**: Uses `localStorage` to preserve quiz state on refresh
+- 📱 **Responsive UI**: Optimized for all screen sizes
+- 🎯 **Result Evaluation**: Highlights your answer vs. the correct one at the end
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
+## Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Custom hooks & context
+- Optional: shadcn/ui for beautiful UI elements
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/quiz-master.git
+   cd quiz-master
+   
+2. Install dependencies
+    ```bash
+    npm install
+    ```
+3. Start the development server
+    ```bash
+    npm run dev
+    ```
+4. Start the Json server
+   ```bash
+    npx json-server --watch src/data/db.json --port 3000
+    ```
+
+## Usage
+
+Visit `http://localhost:5173` to see the application in action.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
