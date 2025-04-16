@@ -8,12 +8,12 @@ import { useLocalStorage } from "../hooks/useLocalStorage";
 import { IoExitOutline } from "react-icons/io5";
 
 const SentenceGame = () => {
-  const [questions, setQuestions] = useLocalStorage<Question[]>(
+  const [_questions, setQuestions] = useLocalStorage<Question[]>(
     "questions",
     []
   );
-  const [index, setIndex] = useLocalStorage("index", 0);
-  const [answers, setAnswers] = useLocalStorage<string[][]>("answers", []);
+  const [_index, setIndex] = useLocalStorage("index", 0);
+  const [_answers, setAnswers] = useLocalStorage<string[][]>("answers", []);
   const [selected, setSelected] = useState<(string | null)[]>([]);
   const [resetSignal, setResetSignal] = useState(0);
   const navigate = useNavigate();
